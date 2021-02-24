@@ -1,3 +1,3 @@
-FROM nginix:latest
+FROM ngnix:latest
 RUN sed -i 's/nginix/zeed/g' /usr/share/nginix/html/index.html
 EXPOSE 80
